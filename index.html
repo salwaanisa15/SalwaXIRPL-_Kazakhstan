@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions in Kazakhstan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> Wisata di negara Kazakhstan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Attractions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">More</a>
+                    </li>
+                    <!-- 2. Button in Navbar -->
+                    <li class="nav-item">
+                        <button class="btn btn-outline-success" type="button">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 3. Carousel (Header Image) -->
+    <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/indizone/2022/01/09/r8sW0nM/sedang-bergejolak-begini-sejarah-negara-kazakhstan-hingga-merdeka-dari-uni-soviet36.jpg" class="d-block w-100" alt="Kazakhstan">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jelajahi Keindahan Kazakhstan</h5>
+                    <p>Temukan tempat terbaik untuk dikunjungi di Kazakhstan.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Kazakhstan">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Rich Culture & History</h5>
+                    <p>Experience the diverse culture and history of Kazakhstan.</p>
+                </div>
+            </div>
+        </div>
+        <!-- 4. Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <p><small>By: Salwa Nur XI RPL 1</small></p>
+    <!-- 5. Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Attractions</li>
+        </ol>
+    </nav>
+
+    <!-- 6. Grid Layout for Content -->
+    <div class="container">
+        <div class="row">
+            <!-- 7. List Group (Filter Sidebar) -->
+            <div class="col-md-3">
+                <h5>Filters</h5>
+                <div class="list-group mb-4">
+                    <a href="#" class="list-group-item list-group-item-action active">Semua</a>
+                    <a href="#" class="list-group-item list-group-item-action">Populer</a>
+                    <a href="#" class="list-group-item list-group-item-action">Alam</a>
+                    <a href="#" class="list-group-item list-group-item-action">Museum</a>
+                    <a href="#" class="list-group-item list-group-item-action">Taman</a>
+                </div>
+
+                <!-- 8. Card with List Group -->
+                <div class="card">
+                    <div class="card-header">
+                        Kota Populer
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Almaty</li>
+                        <li class="list-group-item">Astana</li>
+                        <li class="list-group-item">Shymkent</li>
+                    </ul>
+                </div>
+
+                <!-- 9. Progress Bar -->
+                <div class="mt-4">
+                    <h6>Planning Progress</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                </div>
+
+                <!-- 10. Badge -->
+                <h6 class="mt-4">Destinasi Terbaik <span class="badge bg-success">Baru</span></h6>
+            </div>
+
+            <!-- 11. Cards (Attractions List) -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="palace.jpg" class="card-img-top" alt="Attraction 1">
+                            <div class="card-body">
+                                <h6 class="card-title">Palace of Peace and Reconciliation</h6>
+                                <p class="card-text">Istana Perdamaian dan Rekonsiliasi, atau yang biasa diterjemahkan sebagai Piramida Kedamaian dan Keselarasan, merupakan piramida setinggi 62m di kota Nursultan, yang berfungsi sebagai tempat perhelatan acara dan sebagai pusat spiritual nasional non-agama tertentu.</p>
+                                <a href="#" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="kan'on.jpg" class="card-img-top" alt=>
+                            <div class="card-body">
+                                <h6 class="card-title">Charynskiy Kan'on.</h6>
+                                <p class="card-text">sebuah ngarai di Sungai Charyn yang terletak di Kazakhstan, berjarak 200 kilometer atau 120 mil sebelah timur dari Almaty, dekat dengan perbatasan Republik Rakyat Tiongkok. Ngarai tersebut memiliki panjang 80 hingga 90 kilometer atau 50 hingga 56 mil. </p>
+                                <a href="#" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="Ile-Alatau National Park.jpg" class="card-img-top" alt="Attraction 3">
+                            <div class="card-body">
+                                <h6 class="card-title">Ile-Alatau National Park</h6>
+                                <p class="card-text">aman Nasional Ile-Alatau adalah sebuah taman nasional di Kazakhstan. Ini dibuat pada tahun 1996 dan mencakup sekitar 200.000 ha. Terletak di pegunungan Trans-Ili Alatau di selatan Almaty antara Ngarai Turgen di timur dan Sungai Chemolgan di barat. </p>
+                                <a href="#" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12. Pagination -->
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Sebelumnya</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Berikutnya</a>
+
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- 13. Alert -->
+                <div class="alert alert-warning alert-dismissible fade show mt-4" role="alert">
+                    <strong>Pemberitahuan:</strong> Wisata petualangan seru menanti Anda! Pastikan Anda mengikuti panduan keselamatan demi pengalaman yang menyenangkan.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                
+
+                <!-- 14. Table -->
+                <h5 class="mt-4">3 Wisata Terpopuler</h5>
+                <table class="table table-striped mt-3">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Wisata</th>
+                            <th>Peringkat</th>
+                            <th>Lokasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Medeu</td>
+                            <td>4.7</td>
+                            <td> Kota Almaty</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Ile-Alatau National Park</td>
+                            <td>4.7</td>
+                            <td>Kota Almaty</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Altyn Emel National Park
+                            </td>
+                            <td>4.7</td>
+                            <td>Kota Almaty</td>
+                            
+                        </tr>
+                        <tr>
+                            
+                              
